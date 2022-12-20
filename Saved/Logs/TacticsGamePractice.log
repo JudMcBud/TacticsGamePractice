@@ -3237,3 +3237,586 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.12.20-19.19.16:449][719]AssetCheck: New page: Asset Save: E_GridShape
 [2022.12.20-19.19.16:449][719]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/Blueprints/Core/Grid/GridShapes/E_GridShape.E_GridShape
 [2022.12.20-19.19.33:669][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.12.20-19.23.48:695][ 51]Cmd: DELETE
+[2022.12.20-19.23.48:695][ 51]Cmd: ACTOR DELETE
+[2022.12.20-19.23.48:697][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:697][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:698][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:698][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:698][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:699][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:699][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:699][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:700][ 51]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.12.20-19.23.48:707][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.12.20-19.23.48:708][ 51]LogEditorActor: Deleted 9 Actors (0.013 secs)
+[2022.12.20-19.23.52:043][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.23.52:132][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-19.23.52:138][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.12.20-19.23.52:608][428]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-19.23.52:609][428]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_StartC1398DD2491D3C57022E0E813893A67D.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-19.23.52:619][428]LogFileHelpers: Saving map 'L_Start' took 0.487
+[2022.12.20-19.23.52:634][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 591 ms (total: 26.8 sec)
+[2022.12.20-19.23.52:638][428]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-19.23.52:638][428]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04F89F6C-47CD-1043-2F91-99A74AF8671A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=3ef372954194944b84770eaf851fddb4%7Cd96f7203b8d44ab8a4d5377d0de46632%7C368e13f9-d153-4e1b-82fe-9e080ae852f8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 0 (Found bundle for host: 0x6f26f960c30 [serially])
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 1 (Re-using existing connection #2 with host datarouter.ol.epicgames.com)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.205.105.85) port 443 (#2))
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 7 (Closing connection 2)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: 000006F2C98E3200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2022.12.20-19.24.31:054][971]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04F89F6C-47CD-1043-2F91-99A74AF8671A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=3ef372954194944b84770eaf851fddb4%7Cd96f7203b8d44ab8a4d5377d0de46632%7C368e13f9-d153-4e1b-82fe-9e080ae852f8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.20-19.25.57:058][435]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.20-19.25.57:058][435]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.20-19.25.57:058][435]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.20-19.26.02:654][435]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.12.20-19.26.02:660][435]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.12.20-19.26.02:664][435]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.12.20-19.26.02:667][435]LogAutomationController: Ignoring very large delta of 5.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-19.26.02:671][436]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.12.20-19.26.06:053][819]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Grid
+[2022.12.20-19.26.06:180][819]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.12.20-19.26.07:885][ 21]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.26.07:885][ 21]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.20-19.26.09:179][ 21]LogViewport: Scene viewport resized to 2293x1957, mode Windowed.
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: ================================================
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Total job queries 914, among them cache hits 629 (68.82%)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Tracking 283 distinct input hashes that result in 172 distinct outputs (60.78%)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: RAM used: 2.04 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.25%
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Shaders Compiled: 169
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Jobs assigned 169, completed 169 (100.00%)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Average time worker was idle: 143.15 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 1.47 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Job life time (pending + execution): average 0.65 s, max 1.50
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 33.89 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Jobs were issued in 169 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Average processing rate: 4.99 jobs/sec
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Total thread time: 71.82 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Total thread preprocess time: 4.38 s
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Percentage time preprocessing: 6.11%
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Effective parallelization: 2.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    5 times, average 0.54 sec, max 0.56 sec, min 0.53 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 0.54 sec, max 0.55 sec, min 0.51 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 0.54 sec, max 0.55 sec, min 0.52 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    5 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 0.51 sec, max 0.54 sec, min 0.50 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.18% of total time (compiled   26 times, average 0.47 sec, max 0.54 sec, min 0.42 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.75% of total time (compiled   24 times, average 0.47 sec, max 0.53 sec, min 0.43 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.53% of total time (compiled   18 times, average 0.38 sec, max 0.44 sec, min 0.33 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.75% of total time (compiled   14 times, average 0.45 sec, max 0.53 sec, min 0.40 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.42% of total time (compiled   18 times, average 0.26 sec, max 0.28 sec, min 0.24 sec)
+[2022.12.20-19.26.09:301][ 22]LogShaderCompilers: Display: ================================================
+[2022.12.20-19.28.18:148][453]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.28.18:186][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.12.20-19.28.49:343][261]LogMaterial: Display: Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2022.12.20-19.31.16:059][948]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.31.16:094][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.12.20-19.31.17:834][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.31.17:912][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.31.17:922][113]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.31.17:923][113]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid5A57B3274E78CD89C1A5C782C5F57408.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.31.18:133][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 299 ms (total: 27.1 sec)
+[2022.12.20-19.31.18:138][113]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.31.18:138][113]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.31.20:463][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid_C
+[2022.12.20-19.31.20:463][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid_C
+[2022.12.20-19.31.20:464][345]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid as actor: BP_Grid_C /Game/Maps/L_Start.L_Start:PersistentLevel.BP_Grid_C_0
+[2022.12.20-19.31.20:465][345]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid as actor: BP_Grid_C /Game/Maps/L_Start.L_Start:PersistentLevel.BP_Grid_C_0
+[2022.12.20-19.31.20:467][345]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2022.12.20-19.31.21:218][431]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid_C
+[2022.12.20-19.31.21:219][431]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid_C
+[2022.12.20-19.31.21:220][431]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid as actor: BP_Grid_C /Game/Maps/L_Start.L_Start:PersistentLevel.BP_Grid_C_1
+[2022.12.20-19.31.21:221][431]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid as actor: BP_Grid_C /Game/Maps/L_Start.L_Start:PersistentLevel.BP_Grid_C_1
+[2022.12.20-19.32.42:709][ 39]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-19.32.42:710][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.20-19.32.43:373][ 39]LogViewport: Scene viewport resized to 2679x1982, mode Windowed.
+[2022.12.20-19.33.00:751][  0]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.20-19.33.03:310][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.33.03:442][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.12.20-19.33.03:478][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.12.20-19.33.03:526][254]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square
+[2022.12.20-19.33.03:526][254]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/MI_Grid_Flat_Border_SquareE67C69174613F4BDE085269EFF80730B.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.uasset'
+[2022.12.20-19.33.03:532][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 27.4 sec)
+[2022.12.20-19.33.03:537][254]AssetCheck: New page: Asset Save: MI_Grid_Flat_Border_Square
+[2022.12.20-19.33.03:537][254]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-19.33.06:851][616]LogEditorViewport: Clicking Background
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04F89F6C-47CD-1043-2F91-99A74AF8671A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=3ef372954194944b84770eaf851fddb4%7Cd96f7203b8d44ab8a4d5377d0de46632%7C368e13f9-d153-4e1b-82fe-9e080ae852f8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 0 (Found bundle for host: 0x6f26f960720 [serially])
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 1 (Re-using existing connection #3 with host datarouter.ol.epicgames.com)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.228.243.193) port 443 (#3))
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 7 (Closing connection 3)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: 000006F2D996A000: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2022.12.20-19.33.30:356][572]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B04F89F6C-47CD-1043-2F91-99A74AF8671A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=3ef372954194944b84770eaf851fddb4%7Cd96f7203b8d44ab8a4d5377d0de46632%7C368e13f9-d153-4e1b-82fe-9e080ae852f8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.20-19.34.24:900][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.12.20-19.34.24:903][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Maps/L_Start_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.20-19.34.24:929][995]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L_Start_Auto2
+[2022.12.20-19.34.24:929][995]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start_Auto2DAC2DA6045E76DA52C5D859589D06D76.tmp' to '../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Maps/L_Start_Auto2.umap'
+[2022.12.20-19.34.24:946][995]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Sublevels/L_Lighting_Auto2
+[2022.12.20-19.34.24:946][995]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Lighting_Auto2C9313E3E41C13F52FAC25BBEDB58D58E.tmp' to '../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Maps/Sublevels/L_Lighting_Auto2.umap'
+[2022.12.20-19.34.24:947][995]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_Start' took 0.072
+[2022.12.20-19.34.24:947][995]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.072
+[2022.12.20-19.34.24:947][995]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border] ([1] browsable assets)...
+[2022.12.20-19.34.24:947][995]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border]
+[2022.12.20-19.34.24:955][995]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border_Auto2
+[2022.12.20-19.34.24:955][995]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/M_Grid_Flat_Border_Auto2238EC6C245C284BC4D21A98EF91B4288.tmp' to '../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border_Auto2.uasset'
+[2022.12.20-19.34.24:956][995]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Core/Grid/BP_Grid] ([2] browsable assets)...
+[2022.12.20-19.34.24:988][995]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid]
+[2022.12.20-19.34.24:988][995]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/BP_Grid]
+[2022.12.20-19.34.24:988][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.12.20-19.34.25:021][995]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto2
+[2022.12.20-19.34.25:021][995]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid_Auto2F2A598B645F627E70EEA2DA08C4CFDF3.tmp' to '../../../../../UE5/TacticsGamePractice/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto2.uasset'
+[2022.12.20-19.34.25:022][995]LogFileHelpers: Auto-saving content packages took 0.075
+[2022.12.20-19.36.34:255][345]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.36.34:294][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.12.20-19.36.35:838][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.36.35:944][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.36.35:970][495]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.36.35:971][495]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridF600DB764083BCDB13FBB2BF493C7C02.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.36.35:976][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 27.5 sec)
+[2022.12.20-19.36.35:981][495]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.36.35:982][495]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.38.42:760][970]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.38.42:799][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.12.20-19.38.44:169][102]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.38.44:241][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.38.44:263][102]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.38.44:263][102]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid12918C4D48F988C052AC84A9B2667DF9.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.38.44:268][102]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 27.6 sec)
+[2022.12.20-19.38.44:274][102]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.38.44:274][102]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.38.48:947][176]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.12.20-19.38.48:947][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.20-19.41.49:705][497]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.41.49:747][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.12.20-19.41.51:130][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.41.51:205][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.41.51:229][623]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.41.51:230][623]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridD26F96C64A06A5E1F4CC6DAE81A86667.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.41.51:235][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 27.7 sec)
+[2022.12.20-19.41.51:240][623]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.41.51:240][623]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.42.34:924][221]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.42.34:961][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.20-19.42.35:821][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.42.35:903][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.42.35:931][277]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.42.35:931][277]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridEC8E4CC94ACA16B57F1E7CA940B1DB21.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.42.35:937][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 27.8 sec)
+[2022.12.20-19.42.35:942][277]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.42.35:942][277]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.42.42:278][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.12.20-19.42.43:243][618]LogSlate: Window 'Save Content' being destroyed
+[2022.12.20-19.42.43:508][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.42.43:606][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Sublevels/L_Lighting" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/Sublevels/L_Lighting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-19.42.43:629][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.12.20-19.42.43:642][618]LogSavePackage: Moving output files for package: /Game/Maps/Sublevels/L_Lighting
+[2022.12.20-19.42.43:643][618]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_LightingC4739F724AEFED9DA0DCC6B9559B8336.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/Sublevels/L_Lighting.umap'
+[2022.12.20-19.42.43:645][618]LogFileHelpers: Saving map 'L_Lighting' took 0.039
+[2022.12.20-19.42.43:645][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-19.42.43:668][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.12.20-19.42.43:696][618]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-19.42.43:696][618]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_StartCF95584E414FA653BB532F9096AED4CE.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-19.42.43:706][618]LogFileHelpers: Saving map 'L_Start' took 0.061
+[2022.12.20-19.42.43:714][618]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border
+[2022.12.20-19.42.43:714][618]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/M_Grid_Flat_Border761B3FF149330C370A27B3BE13C54ED2.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.uasset'
+[2022.12.20-19.42.43:721][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 28.0 sec)
+[2022.12.20-19.42.43:727][618]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.20-19.42.43:727][618]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Sublevels/L_Lighting.L_Lighting
+[2022.12.20-19.42.43:727][618]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-19.42.43:727][618]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+[2022.12.20-19.45.27:229][546]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.20-19.45.27:247][547]LogAutomationController: Ignoring very large delta of 2.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-19.45.36:307][514]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.45.36:381][514]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:382][514]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator1
+[2022.12.20-19.45.36:382][514]LogBlueprintUserMessages: [BP_Grid_C_6] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:414][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.12.20-19.45.36:418][514]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:418][514]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator1
+[2022.12.20-19.45.36:419][514]LogBlueprintUserMessages: [BP_Grid_C_6] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:419][514]LogBlueprintUserMessages: [BP_Grid_C_7] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:426][514]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.36:426][514]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator1
+[2022.12.20-19.45.36:427][514]LogBlueprintUserMessages: [BP_Grid_C_7] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.45.37:159][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.45.37:240][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.45.37:268][573]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.45.37:268][573]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridAC989B2740450B28EED4E3AE199A8B3B.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.45.37:274][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 28.2 sec)
+[2022.12.20-19.45.37:280][573]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.45.37:280][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.45.39:883][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.45.39:971][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-19.45.39:996][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.12.20-19.45.40:631][854]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-19.45.40:631][854]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start515453664FEAD85C5FEF76BFCF4A5D9E.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-19.45.40:642][854]LogFileHelpers: Saving map 'L_Start' took 0.671
+[2022.12.20-19.45.40:647][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 763 ms (total: 28.9 sec)
+[2022.12.20-19.45.40:652][854]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-19.45.40:652][854]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-19.45.45:546][424]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator0
+[2022.12.20-19.45.51:707][903]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator1
+[2022.12.20-19.46.01:310][599]LogAutomationController: Ignoring very large delta of 2.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-19.46.15:166][790]LogAutomationController: Ignoring very large delta of 3.48 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-19.46.22:099][512]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator0
+[2022.12.20-19.46.35:952][288]LogAutomationController: Ignoring very large delta of 6.21 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-19.46.42:681][903]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row Not Found - E_GridShape::NewEnumerator3
+[2022.12.20-19.48.55:896][ 51]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.48.55:905][ 51]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row not found - None
+[2022.12.20-19.48.55:905][ 51]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row not found - None
+[2022.12.20-19.48.55:905][ 51]LogBlueprintUserMessages: [BP_Grid_C_7] Error - Row not found - None
+[2022.12.20-19.48.55:936][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.12.20-19.48.55:939][ 51]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row not found - None
+[2022.12.20-19.48.55:940][ 51]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row not found - None
+[2022.12.20-19.48.55:941][ 51]LogBlueprintUserMessages: [BP_Grid_C_7] Error - Row not found - None
+[2022.12.20-19.48.55:941][ 51]LogBlueprintUserMessages: [BP_Grid_C_8] Error - Row not found - None
+[2022.12.20-19.48.55:947][ 51]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row not found - None
+[2022.12.20-19.48.55:947][ 51]LogBlueprintUserMessages: [BP_Grid_C_1] Error - Row not found - None
+[2022.12.20-19.48.55:948][ 51]LogBlueprintUserMessages: [BP_Grid_C_8] Error - Row not found - None
+[2022.12.20-19.48.57:290][142]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.48.57:400][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.48.57:430][142]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.48.57:430][142]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridADBB68D0448A00EE588EC19A4EA824D8.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.48.57:438][142]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 29.1 sec)
+[2022.12.20-19.48.57:444][142]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.48.57:444][142]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.49.33:777][791]LogSlate: Window 'BP_Grid' being destroyed
+[2022.12.20-19.49.34:994][928]LogBlueprintUserMessages: [BP_Grid_C_0] Error - Row not found - None
+[2022.12.20-19.49.34:994][928]LogViewport: Scene viewport resized to 3062x1955, mode Windowed.
+[2022.12.20-19.50.19:792][452]LogViewport: Scene viewport resized to 2293x1955, mode Windowed.
+[2022.12.20-19.50.23:573][885]LogViewport: Scene viewport resized to 2331x1955, mode Windowed.
+[2022.12.20-19.50.23:597][887]LogViewport: Scene viewport resized to 2447x1955, mode Windowed.
+[2022.12.20-19.50.23:627][889]LogViewport: Scene viewport resized to 2592x1955, mode Windowed.
+[2022.12.20-19.50.23:670][891]LogViewport: Scene viewport resized to 2704x1955, mode Windowed.
+[2022.12.20-19.50.23:714][893]LogViewport: Scene viewport resized to 2782x1955, mode Windowed.
+[2022.12.20-19.50.23:753][895]LogViewport: Scene viewport resized to 2822x1955, mode Windowed.
+[2022.12.20-19.50.23:982][921]LogViewport: Scene viewport resized to 2794x1955, mode Windowed.
+[2022.12.20-19.50.24:032][923]LogViewport: Scene viewport resized to 2732x1955, mode Windowed.
+[2022.12.20-19.50.24:060][925]LogViewport: Scene viewport resized to 2716x1955, mode Windowed.
+[2022.12.20-19.50.30:078][609]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-19.50.30:121][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.12.20-19.50.32:842][890]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.50.32:994][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-19.50.33:413][890]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-19.50.33:414][890]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid5D6CC6144DFCAC2E8671AC9B9F8F6C5F.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-19.50.33:418][890]LogFileHelpers: InternalPromptForCheckoutAndSave took 577 ms (total: 29.6 sec)
+[2022.12.20-19.50.33:424][890]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-19.50.33:424][890]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-19.50.51:776][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-19.50.51:829][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-19.50.51:853][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.12.20-19.50.52:303][139]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-19.50.52:304][139]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start91A498034EB17C95C049D7A6876F38DA.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-19.50.52:314][139]LogFileHelpers: Saving map 'L_Start' took 0.484
+[2022.12.20-19.50.52:319][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 542 ms (total: 30.2 sec)
+[2022.12.20-19.50.52:324][139]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-19.50.52:324][139]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-19.51.29:730][474]BlueprintLog: New page: Collapse to Function
+[2022.12.20-20.00.12:855][718]LogDerivedDataCache: C:/Users/judso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.072 and deleted 0 files with total size 0 MiB. Scanned 1555 files in 1551 folders with total size 58 MiB.
+[2022.12.20-20.00.15:503][ 23]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-20.00.15:549][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.12.20-20.08.40:388][496]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-20.08.40:392][496]LogBlueprint: Error: [AssetLog] F:\UE5\TacticsGamePractice\Content\Blueprints\Core\Grid\BP_Grid.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Convert Integer to Float (double-precision)' at  vector * vector
+[2022.12.20-20.08.40:392][496]LogBlueprint: Error: [AssetLog] F:\UE5\TacticsGamePractice\Content\Blueprints\Core\Grid\BP_Grid.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Convert Integer to Float (double-precision)' at  vector * vector
+[2022.12.20-20.08.40:458][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.12.20-20.08.41:596][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.08.41:671][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-20.08.41:729][594]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-20.08.41:730][594]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid419D1D4340C31536614DB7AFFAA85208.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-20.08.41:735][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 30.3 sec)
+[2022.12.20-20.08.41:742][594]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-20.08.41:742][594]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-20.08.43:453][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.08.43:540][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-20.08.43:565][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.12.20-20.08.43:598][757]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-20.08.43:598][757]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start6C5923294EFBAF534CA853B2DB2D4649.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-20.08.43:609][757]LogFileHelpers: Saving map 'L_Start' took 0.069
+[2022.12.20-20.08.43:615][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 30.5 sec)
+[2022.12.20-20.08.43:621][757]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-20.08.43:621][757]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-20.09.36:524][116]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-20.09.36:528][116]LogBlueprint: Error: [AssetLog] F:\UE5\TacticsGamePractice\Content\Blueprints\Core\Grid\BP_Grid.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Convert Integer to Float (double-precision)' at  vector * vector
+[2022.12.20-20.09.36:528][116]LogBlueprint: Error: [AssetLog] F:\UE5\TacticsGamePractice\Content\Blueprints\Core\Grid\BP_Grid.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Convert Integer to Float (double-precision)' at  vector * vector
+[2022.12.20-20.09.36:570][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.20-20.09.37:528][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.09.37:610][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-20.09.37:667][180]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-20.09.37:668][180]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_Grid39DE1EC64686A79FC081A5854B0F00EE.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-20.09.37:674][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 30.6 sec)
+[2022.12.20-20.09.37:680][180]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-20.09.37:680][180]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-20.11.14:039][540]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-20.11.14:092][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.12.20-20.11.15:414][666]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.11.15:532][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-20.11.15:590][666]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-20.11.15:591][666]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridA35886874C4679B5BA80239D79C70EFF.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-20.11.15:596][666]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 30.8 sec)
+[2022.12.20-20.11.15:602][666]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-20.11.15:602][666]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-20.11.22:860][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.11.22:935][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-20.11.22:961][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.12.20-20.11.22:989][422]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-20.11.22:990][422]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start1DFF45314A1CD46AD210BD9DE43A15CE.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-20.11.22:999][422]LogFileHelpers: Saving map 'L_Start' took 0.064
+[2022.12.20-20.11.23:005][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 31.0 sec)
+[2022.12.20-20.11.23:011][422]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-20.11.23:011][422]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
+[2022.12.20-20.12.37:403][341]BlueprintLog: New page: Collapse to Function
+[2022.12.20-20.12.55:196][450]BlueprintLog: New page: Compile BP_Grid
+[2022.12.20-20.12.55:251][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.12.20-20.12.56:191][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.12.56:297][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2022.12.20-20.12.56:359][526]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2022.12.20-20.12.56:359][526]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/BP_GridE4D2B77B438556EC281ABEA0B1F57875.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2022.12.20-20.12.56:365][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 31.1 sec)
+[2022.12.20-20.12.56:371][526]AssetCheck: New page: Asset Save: BP_Grid
+[2022.12.20-20.12.56:371][526]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2022.12.20-20.13.07:924][775]Cmd: TRANSACTION UNDO
+[2022.12.20-20.13.07:924][775]LogEditorTransaction: Undo Set Vector Property
+[2022.12.20-20.13.10:498][981]Cmd: TRANSACTION UNDO
+[2022.12.20-20.13.10:498][981]LogEditorTransaction: Undo Set Vector Property
+[2022.12.20-20.13.13:344][231]Cmd: TRANSACTION UNDO
+[2022.12.20-20.13.13:344][231]LogEditorTransaction: Undo Set Vector Property
+[2022.12.20-20.13.15:418][364]Cmd: TRANSACTION UNDO
+[2022.12.20-20.13.15:418][364]LogEditorTransaction: Undo Set Vector Property
+[2022.12.20-20.14.32:285][988]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-20.14.32:286][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.20-20.14.32:379][988]LogViewport: Scene viewport resized to 2679x1982, mode Windowed.
+[2022.12.20-20.14.34:558][202]LogViewport: Scene viewport resized to 2676x2005, mode Windowed.
+[2022.12.20-20.14.34:669][204]LogViewport: Scene viewport resized to 548x327, mode Windowed.
+[2022.12.20-20.14.35:828][312]LogViewport: Scene viewport resized to 551x338, mode Windowed.
+[2022.12.20-20.14.39:158][672]LogViewport: Scene viewport resized to 551x341, mode Windowed.
+[2022.12.20-20.14.39:225][672]LogViewport: Scene viewport resized to 530x460, mode Windowed.
+[2022.12.20-20.14.39:292][672]LogViewport: Scene viewport resized to 518x525, mode Windowed.
+[2022.12.20-20.14.39:358][672]LogViewport: Scene viewport resized to 515x632, mode Windowed.
+[2022.12.20-20.14.39:425][672]LogViewport: Scene viewport resized to 527x765, mode Windowed.
+[2022.12.20-20.14.39:492][672]LogViewport: Scene viewport resized to 547x866, mode Windowed.
+[2022.12.20-20.14.39:558][672]LogViewport: Scene viewport resized to 578x933, mode Windowed.
+[2022.12.20-20.14.39:625][672]LogViewport: Scene viewport resized to 614x976, mode Windowed.
+[2022.12.20-20.14.39:692][672]LogViewport: Scene viewport resized to 663x1003, mode Windowed.
+[2022.12.20-20.14.39:758][672]LogViewport: Scene viewport resized to 687x1032, mode Windowed.
+[2022.12.20-20.14.39:825][672]LogViewport: Scene viewport resized to 723x1092, mode Windowed.
+[2022.12.20-20.14.39:892][672]LogViewport: Scene viewport resized to 766x1122, mode Windowed.
+[2022.12.20-20.14.39:959][672]LogViewport: Scene viewport resized to 775x1132, mode Windowed.
+[2022.12.20-20.14.40:025][672]LogViewport: Scene viewport resized to 777x1136, mode Windowed.
+[2022.12.20-20.14.40:125][672]LogViewport: Scene viewport resized to 777x1137, mode Windowed.
+[2022.12.20-20.14.40:159][672]LogViewport: Scene viewport resized to 778x1148, mode Windowed.
+[2022.12.20-20.14.40:225][672]LogViewport: Scene viewport resized to 778x1151, mode Windowed.
+[2022.12.20-20.14.40:292][672]LogViewport: Scene viewport resized to 778x1165, mode Windowed.
+[2022.12.20-20.14.40:359][672]LogViewport: Scene viewport resized to 765x1186, mode Windowed.
+[2022.12.20-20.14.40:425][672]LogViewport: Scene viewport resized to 755x1195, mode Windowed.
+[2022.12.20-20.14.40:592][672]LogViewport: Scene viewport resized to 753x1194, mode Windowed.
+[2022.12.20-20.14.40:658][672]LogViewport: Scene viewport resized to 776x1164, mode Windowed.
+[2022.12.20-20.14.40:692][672]LogViewport: Scene viewport resized to 778x1164, mode Windowed.
+[2022.12.20-20.14.40:758][672]LogViewport: Scene viewport resized to 781x1163, mode Windowed.
+[2022.12.20-20.14.40:825][672]LogViewport: Scene viewport resized to 790x1156, mode Windowed.
+[2022.12.20-20.14.40:892][672]LogViewport: Scene viewport resized to 810x1138, mode Windowed.
+[2022.12.20-20.14.40:958][672]LogViewport: Scene viewport resized to 814x1138, mode Windowed.
+[2022.12.20-20.14.41:025][672]LogViewport: Scene viewport resized to 815x1136, mode Windowed.
+[2022.12.20-20.14.41:092][672]LogViewport: Scene viewport resized to 816x1135, mode Windowed.
+[2022.12.20-20.14.41:158][672]LogViewport: Scene viewport resized to 831x1131, mode Windowed.
+[2022.12.20-20.14.41:192][672]LogViewport: Scene viewport resized to 839x1128, mode Windowed.
+[2022.12.20-20.14.41:561][673]LogAutomationController: Ignoring very large delta of 2.53 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-20.14.52:050][761]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.20-20.15.10:492][833]LogViewport: Scene viewport resized to 840x1128, mode Windowed.
+[2022.12.20-20.15.10:559][833]LogViewport: Scene viewport resized to 879x1128, mode Windowed.
+[2022.12.20-20.15.10:625][833]LogViewport: Scene viewport resized to 884x1129, mode Windowed.
+[2022.12.20-20.15.10:692][833]LogViewport: Scene viewport resized to 899x1136, mode Windowed.
+[2022.12.20-20.15.10:758][833]LogViewport: Scene viewport resized to 909x1138, mode Windowed.
+[2022.12.20-20.15.14:386][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.15.14:510][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.12.20-20.15.14:543][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.20-20.15.14:592][141]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.14:593][141]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/MI_Grid_Flat_Border_SquareA22D5F6D47D144DA46C690A71149E6DB.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.uasset'
+[2022.12.20-20.15.14:599][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 31.3 sec)
+[2022.12.20-20.15.14:604][141]AssetCheck: New page: Asset Save: MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.14:604][141]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.48:621][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.15.48:724][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.12.20-20.15.48:750][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.12.20-20.15.49:267][719]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.49:268][719]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/MI_Grid_Flat_Border_Square8F0C94B94B4ED5FE95DFD5810597C392.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.uasset'
+[2022.12.20-20.15.49:273][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 652 ms (total: 32.0 sec)
+[2022.12.20-20.15.49:279][719]AssetCheck: New page: Asset Save: MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.49:279][719]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-20.15.53:657][141]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+[2022.12.20-20.15.53:661][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.20-20.15.53:750][141]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.20-20.15.53:750][141]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.15.53:750][141]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.15.53:750][141]MaterialEditorStats: Shader Count: 0
+[2022.12.20-20.15.53:755][141]LogViewport: Scene viewport resized to 760x989, mode Windowed.
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: ================================================
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Total job queries 931, among them cache hits 638 (68.53%)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Tracking 291 distinct input hashes that result in 178 distinct outputs (61.17%)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: RAM used: 2.10 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.26%
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Shaders Compiled: 177
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Jobs assigned 177, completed 177 (100.00%)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Average time worker was idle: 331.11 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 1.47 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Job life time (pending + execution): average 0.66 s, max 1.50
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 34.78 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Jobs were issued in 177 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Average processing rate: 5.09 jobs/sec
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Total thread time: 75.31 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Total thread preprocess time: 4.60 s
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Percentage time preprocessing: 6.11%
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Effective parallelization: 2.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    5 times, average 0.54 sec, max 0.56 sec, min 0.53 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 0.54 sec, max 0.55 sec, min 0.51 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 0.54 sec, max 0.55 sec, min 0.52 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    5 times, average 0.53 sec, max 0.54 sec, min 0.52 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 0.51 sec, max 0.54 sec, min 0.50 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.08% of total time (compiled   27 times, average 0.48 sec, max 0.54 sec, min 0.42 sec)
+[2022.12.20-20.15.53:802][142]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.64% of total time (compiled   25 times, average 0.47 sec, max 0.53 sec, min 0.43 sec)
+[2022.12.20-20.15.53:803][142]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.68% of total time (compiled   19 times, average 0.38 sec, max 0.44 sec, min 0.33 sec)
+[2022.12.20-20.15.53:803][142]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.97% of total time (compiled   15 times, average 0.45 sec, max 0.53 sec, min 0.40 sec)
+[2022.12.20-20.15.53:803][142]LogShaderCompilers: Display:                                             FDebugViewModeVS - 6.71% of total time (compiled   14 times, average 0.36 sec, max 0.45 sec, min 0.34 sec)
+[2022.12.20-20.15.53:803][142]LogShaderCompilers: Display: ================================================
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: Base pass shader without light map: 109 instructions
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: Base pass vertex shader: 284 instructions
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.15.53:843][143]MaterialEditorStats: Shader Count: 2
+[2022.12.20-20.15.55:489][302]LogViewport: Scene viewport resized to 759x1000, mode Windowed.
+[2022.12.20-20.15.55:623][304]LogViewport: Scene viewport resized to 153x163, mode Windowed.
+[2022.12.20-20.15.55:654][305]LogViewport: Scene viewport resized to 151x161, mode Windowed.
+[2022.12.20-20.15.55:913][335]LogViewport: Scene viewport resized to 254x567, mode Windowed.
+[2022.12.20-20.16.29:725][394]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.20-20.16.29:725][394]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.29:725][394]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.29:725][394]MaterialEditorStats: Shader Count: 0
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: Base pass shader without light map: 109 instructions
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: Base pass vertex shader: 284 instructions
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.29:818][397]MaterialEditorStats: Shader Count: 2
+[2022.12.20-20.16.35:413][917]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.20-20.16.35:413][917]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.35:413][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.35:413][917]MaterialEditorStats: Shader Count: 0
+[2022.12.20-20.16.36:221][969]MaterialEditorStats: Base pass shader without light map: 109 instructions
+[2022.12.20-20.16.36:221][969]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.20-20.16.36:221][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.36:222][969]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.36:222][969]MaterialEditorStats: Shader Count: 1
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: Base pass shader without light map: 109 instructions
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: Base pass vertex shader: 284 instructions
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.36:310][976]MaterialEditorStats: Shader Count: 2
+[2022.12.20-20.16.38:130][118]LogMaterialEditor: Saving and Compiling material M_Grid_Flat_Border
+[2022.12.20-20.16.38:659][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2022.12.20-20.16.39:405][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.20-20.16.39:551][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.16.40:774][118]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border
+[2022.12.20-20.16.40:775][118]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/M_Grid_Flat_Border65B3FE1F418977ADA856DDADDEA1BC81.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.uasset'
+[2022.12.20-20.16.40:780][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.22 sec (total: 33.2 sec)
+[2022.12.20-20.16.40:789][118]AssetCheck: New page: Asset Save: M_Grid_Flat_Border
+[2022.12.20-20.16.40:789][118]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+[2022.12.20-20.16.40:801][119]LogAutomationController: Ignoring very large delta of 2.67 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-20.16.46:421][623]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.20-20.16.46:421][623]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.46:422][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.46:422][623]MaterialEditorStats: Shader Count: 0
+[2022.12.20-20.16.47:077][663]MaterialEditorStats: Base pass shader without light map: 110 instructions
+[2022.12.20-20.16.47:077][663]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.20-20.16.47:077][663]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.47:077][663]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.47:077][663]MaterialEditorStats: Shader Count: 1
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: Base pass shader without light map: 110 instructions
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: Base pass vertex shader: 284 instructions
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.16.47:175][670]MaterialEditorStats: Shader Count: 2
+[2022.12.20-20.16.57:105][526]LogMaterialEditor: Saving and Compiling material M_Grid_Flat_Border
+[2022.12.20-20.16.57:604][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.12.20-20.16.58:271][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.12.20-20.16.58:384][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.16.59:319][526]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border
+[2022.12.20-20.16.59:320][526]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/M_Grid_Flat_Border4323D0E94FC55B3B13BAABB35B28C3A8.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.uasset'
+[2022.12.20-20.16.59:325][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 941 ms (total: 34.2 sec)
+[2022.12.20-20.16.59:334][526]AssetCheck: New page: Asset Save: M_Grid_Flat_Border
+[2022.12.20-20.16.59:334][526]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+[2022.12.20-20.16.59:348][527]LogAutomationController: Ignoring very large delta of 2.24 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-20.17.19:924][634]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.20-20.17.30:651][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.17.30:754][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.12.20-20.17.30:780][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.12.20-20.17.31:231][818]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square
+[2022.12.20-20.17.31:231][818]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/MI_Grid_Flat_Border_Square127538DB4696698147ACBBAA12AF1EA3.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.uasset'
+[2022.12.20-20.17.31:237][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 585 ms (total: 34.8 sec)
+[2022.12.20-20.17.31:242][818]AssetCheck: New page: Asset Save: MI_Grid_Flat_Border_Square
+[2022.12.20-20.17.31:242][818]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Blueprints/Core/Grid/GridShapes/Square/MI_Grid_Flat_Border_Square.MI_Grid_Flat_Border_Square
+[2022.12.20-20.18.00:180][ 71]LogSlate: Window 'Message' being destroyed
+[2022.12.20-20.18.00:184][ 71]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+(Selecting 'No' will cause all changes to be lost!)
+[2022.12.20-20.18.00:195][ 72]LogAutomationController: Ignoring very large delta of 26.54 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-20.18.02:147][265]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.12.20-20.18.02:147][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.20-20.18.05:489][359]LogSlate: Window 'Message' being destroyed
+[2022.12.20-20.18.05:493][359]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+(Selecting 'No' will cause all changes to be lost!)
+[2022.12.20-20.18.05:504][360]LogAutomationController: Ignoring very large delta of 2.24 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2022.12.20-20.18.06:672][447]LogMaterialEditor: Applying material M_Grid_Flat_Border
+[2022.12.20-20.18.07:101][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.12.20-20.18.07:337][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2022.12.20-20.18.07:344][447]MaterialEditorStats: Texture samplers: 1/16
+[2022.12.20-20.18.07:344][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.18.07:344][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.18.07:344][447]MaterialEditorStats: Shader Count: 2
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: Base pass shader without light map: 110 instructions
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: Base pass vertex shader: 284 instructions
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.20-20.18.07:405][450]MaterialEditorStats: Shader Count: 4
+[2022.12.20-20.18.09:025][574]LogMaterialEditor: Saving and Compiling material M_Grid_Flat_Border
+[2022.12.20-20.18.09:172][574]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.18.09:279][574]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border
+[2022.12.20-20.18.09:280][574]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/M_Grid_Flat_BorderCCEE85CC4BFF2F8A9F2CE99B56BEFE57.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.uasset'
+[2022.12.20-20.18.09:286][574]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 34.9 sec)
+[2022.12.20-20.18.09:291][574]AssetCheck: New page: Asset Save: M_Grid_Flat_Border
+[2022.12.20-20.18.09:291][574]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Blueprints/Core/Grid/GridShapes/M_Grid_Flat_Border.M_Grid_Flat_Border
+[2022.12.20-20.18.13:193][903]LogSlate: Window 'M_Grid_Flat_Border' being destroyed
+[2022.12.20-20.18.13:199][903]LogSlate: Window 'M_Grid_Flat_Border' being destroyed
+[2022.12.20-20.18.13:960][903]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.12.20-20.18.13:960][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.20-20.18.18:248][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.20-20.18.18:294][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Start" FILE="../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.20-20.18.18:319][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.12.20-20.18.18:352][373]LogSavePackage: Moving output files for package: /Game/Maps/L_Start
+[2022.12.20-20.18.18:352][373]LogSavePackage: Moving '../../../../../UE5/TacticsGamePractice/Saved/L_Start78D989F246A94392BD157EA4D2AB77A5.tmp' to '../../../../../UE5/TacticsGamePractice/Content/Maps/L_Start.umap'
+[2022.12.20-20.18.18:938][373]LogFileHelpers: Saving map 'L_Start' took 0.645
+[2022.12.20-20.18.18:967][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 719 ms (total: 35.6 sec)
+[2022.12.20-20.18.18:972][373]AssetCheck: New page: Asset Save: L_Start
+[2022.12.20-20.18.18:973][373]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/L_Start.L_Start
